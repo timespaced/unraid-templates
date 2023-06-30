@@ -1,2 +1,2 @@
 # wefwef-unraid
-Unraid CA template for wefwef, a Lemmy PWA
+Unraid CA template for wefwef, a progressive web app (PWA) for Lemmy.
