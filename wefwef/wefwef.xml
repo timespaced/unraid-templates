@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/141367-support-wefwef-a-pwa-for-lemmy/<Support/>
   <Project>https://github.com/aeharding/wefwef</Project>
   <Overview>wefwef is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out, but be aware you will likely encounter bugs and missing functionality.&#xD;
 &#xD;
