@@ -21,7 +21,19 @@ What does Voyager currently support?&#xD;
 - Comment thread collapsing&#xD;
 - A bunch of swipe gestures&#xD;
 - Messaging, mentions and replies&#xD;
-- Creating new posts (url/photo/text)</Overview>
+- Creating new posts (url/photo/text)&#xD;
+- Deleting/editing comments&#xD;
+- Deleting/editing posts&#xD;
+- Swipe to hide posts&#xD;
+- Saving/bookmarking&#xD;
+- Favorites&#xD;
+- Android theme (beta)&#xD;
+&#xD;
+What is on the roadmap?&#xD;
+- More customization&#xD;
+- Native notifications and badging&#xD;
+- Translations&#xD;
+- ...and more!</Overview>
   <Category>Other: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:5314]</WebUI>
   <TemplateURL/>
