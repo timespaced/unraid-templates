@@ -1,17 +1,17 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>wefwef</Name>
-  <Repository>ghcr.io/aeharding/wefwef:latest</Repository>
+  <Name>Voyager</Name>
+  <Repository>ghcr.io/aeharding/voyager:latest</Repository>
   <Registry/>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support>https://forums.unraid.net/topic/141367-support-wefwef-a-pwa-for-lemmy/</Support>
-  <Project>https://github.com/aeharding/wefwef</Project>
-  <Overview>wefwef is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out, but be aware you will likely encounter bugs and missing functionality.&#xD;
+  <Project>https://github.com/aeharding/voyager</Project>
+  <Overview>Voyager (formerly wefwef) is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out, but be aware you will likely encounter bugs and missing functionality.&#xD;
 &#xD;
-What does wefwef currently support?&#xD;
+What does Voyager currently support?&#xD;
 - Light/dark mode&#xD;
 - View and subscribe to communities&#xD;
 - Multi account support&#xD;
@@ -25,7 +25,7 @@ What does wefwef currently support?&#xD;
   <Category>Other: Status:Beta</Category>
   <WebUI>http://[IP]:[PORT:5314]</WebUI>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/aeharding/wefwef/main/public/logo.png</Icon>
+  <Icon>https://raw.githubusercontent.com/aeharding/voyager/main/public/logo.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
