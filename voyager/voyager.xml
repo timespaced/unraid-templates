@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Voyager</Name>
+  <Repository>ghcr.io/aeharding/voyager:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/141367-support-wefwef-a-pwa-for-lemmy/</Support>
+  <Project>https://github.com/aeharding/voyager</Project>
+  <Overview>Voyager (formerly wefwef) is an Apollo-like open source web client for Lemmy. It's a mobile-first app, but works great on desktop devices, too. Please feel free to try it out, but be aware you will likely encounter bugs and missing functionality.&#xD;
+&#xD;
+What does Voyager currently support?&#xD;
+- Light/dark mode&#xD;
+- View and subscribe to communities&#xD;
+- Multi account support&#xD;
+- Single comment thread context view&#xD;
+- Upvote, downvote and reply to threads and comments&#xD;
+- Interact with user profiles&#xD;
+- Comment thread collapsing&#xD;
+- A bunch of swipe gestures&#xD;
+- Messaging, mentions and replies&#xD;
+- Creating new posts (url/photo/text)&#xD;
+- Deleting/editing comments&#xD;
+- Deleting/editing posts&#xD;
+- Swipe to hide posts&#xD;
+- Saving/bookmarking&#xD;
+- Favorites&#xD;
+- Android theme (beta)&#xD;
+&#xD;
+What is on the roadmap?&#xD;
+- More customization&#xD;
+- Native notifications and badging&#xD;
+- Translations&#xD;
+- ...and more!</Overview>
+  <Category>Other: Status:Beta</Category>
+  <WebUI>http://[IP]:[PORT:5314]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/aeharding/voyager/main/public/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1688152294</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port" Target="5314" Default="5314" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">5314</Config>
+  <Config Name="CUSTOM_LEMMY_SERVERS" Target="CUSTOM_LEMMY_SERVERS" Default="lemmy.world,lemmy.ml,sh.itjust.works" Mode="" Description="Optional comma separated list of suggested servers. The first will be used as default view for logged out users. You can specify only one if you want." Type="Variable" Display="always" Required="false" Mask="false">lemmy.world,lemmy.ml,sh.itjust.works</Config>
+</Container>
